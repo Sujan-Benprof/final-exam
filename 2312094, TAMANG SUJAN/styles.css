@@ -1,0 +1,265 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: url(https://img.freepik.com/premium-photo/sunset-blooming-green-garden_124507-20697.jpg) ; 
+    background-size: cover;
+    padding: 25px 0;
+    text-align: center;
+    color: rgb(52, 58, 62,);
+}
+
+h1 {
+    margin: 0;
+}
+
+.shop-name{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 150px;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #edeeefe8;
+    margin-right: 50px;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: #192124;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+#section1 {
+    padding: 20px;
+    background-color:white;
+    margin: 10px;
+    border-radius: 1%;
+}
+
+
+#section2 {
+    padding: 20px;
+    background-color:white;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 1%;
+}
+
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #4caf50; /* Green border */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #4caf50; /* Green border */
+    border-right: 1px solid #000;
+}
+
+th {
+    background-color: #4caf50; /* Green background for header */
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+        position: relative;
+}
+li:before {
+    content: "\2022"; /* Unicode character for a bullet point */
+    color: #4caf50; /* Green bullet point color */
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+#section3 {
+    padding: 20px;
+    background-color:white;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 1%;
+}
+
+#section3 img{
+    max-width: 100%;
+    width: 300px; 
+    height: 300px;
+    object-fit: cover;
+    margin: 10px; 
+    border-radius: 8px;
+}
+#section3 .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#section4 {
+    padding: 20px;
+    background-color:white;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 1%;
+}
+
+
+/* for tool */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    background-color: #fff; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#scheduleResult {
+    margin-top: 20px;
+    background-color: #e5f3e5;
+    padding: 15px;
+    border: 1px solid #ecf4ec;
+    border-radius: 4px;
+    color: #010701;
+}
+
+
+
+
+#converter-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+footer {
+    background: url(https://t3.ftcdn.net/jpg/05/89/27/74/360_F_589277407_pTytV9S8t67vEQhGC0l3w09GLkfnZq5v.jpg);
+    background-size: cover;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.social-media {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.contact-info{
+    font-size: 17px;
+}
+
+.contact-info h3,
+.social-media h3 {
+    font-size: 1.2em;
+}
+
+.contact-info p,
+.social-media a {
+    margin: 5px 0;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media a:hover img {
+    transform: scale(1.2); /* Increase size on hover */
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
